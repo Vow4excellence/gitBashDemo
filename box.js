@@ -16,7 +16,7 @@ class Box  {
         var pos2= this.body.position;
         translate(pos2.x,pos2.y);
     rectMode(CENTER);
-    fill("black");
+    fill("yellow");
        rect(0,0,this.width,this.height);
         pop();
     }
